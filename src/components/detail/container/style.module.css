@@ -1,0 +1,17 @@
+.container {
+    max-width: var(--maxWidth);
+    margin: 0 auto;
+}
+
+.container__back {
+    padding: 6rem 0;
+}
+
+.back {
+    background-color: var(--elements);
+    padding: 1rem 4rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 30px 0 rgb(82 63 105/5%);
+}

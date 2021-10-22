@@ -1,0 +1,12 @@
+.details{
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+}
+.flag{
+    width: 100%;
+    flex: 1;
+}
+.info{
+    flex: 1;
+}
