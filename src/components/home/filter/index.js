@@ -1,5 +1,5 @@
 import Search from "components/global/icons/search";
-import { useAppContext } from "context";
+import { useAppContext } from "contexts/filter.context";
 import { useEffect, useRef } from "react";
 import style from "./style.module.css"
 

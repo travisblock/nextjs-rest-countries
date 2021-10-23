@@ -1,5 +1,5 @@
 import Card from "components/home/card";
-import { useAppContext } from "context";
+import { useAppContext } from "contexts/filter.context";
 import { useEffect, useState } from "react";
 import style from "./style.module.css"
 
