@@ -1,4 +1,5 @@
 import Container from 'components/detail/container';
+import Footer from 'components/global/footer';
 import Header from 'components/global/head';
 import Navbar from 'components/global/nav';
 
@@ -9,6 +10,7 @@ function Country({ country, borders }) {
             <main>
                 <Container country={country} borders={borders}/>
             </main>
+            <Footer/>
         </Header>
     );
 }

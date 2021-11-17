@@ -2,6 +2,7 @@ import Header from "components/global/head";
 import Countries from "components/home/countries";
 import Navbar from "components/global/nav";
 import Filter from "components/home/filter";
+import Footer from "components/global/footer";
 
 export default function Home({ countries }) {
   return (
@@ -11,6 +12,7 @@ export default function Home({ countries }) {
         <Filter/>
         <Countries countries={countries}/>
       </main>
+      <Footer/>
     </Header>
   )
 }
