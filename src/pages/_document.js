@@ -4,7 +4,7 @@ function MyDocument(props) {
   return (
     <Html>
         <Head />
-        <body className="light">
+        <body>
           <Main />
           <NextScript />
         </body>
